@@ -1,0 +1,15 @@
+Q:Output a list of installed packages and their versions
+A:pip list // python -V
+
+Q:Show the package metadata of numpy.
+A:pip show numpy
+
+Q:Remove the package numpy
+A:pip uninstall numpy
+
+Q:(Re)install the package numpy.
+A:pip install --upgrade --force-reinstall numpy
+
+Q:Freeze your python packages and their versions in a requirements.txt file you
+have to turn-in.
+A:pip freeze > requirements.txt
